@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-OrderApplication<order>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.kafka.order.OrderApplication",
+            "projectName": "order",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ShippingApplication<shipping>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.kafka.shipping.ShippingApplication",
+            "projectName": "shipping",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
